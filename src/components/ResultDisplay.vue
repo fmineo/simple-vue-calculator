@@ -13,6 +13,7 @@ export default {
     :value="value"
     disabled
     placeholder="0"
+    
   />
 </template>
 

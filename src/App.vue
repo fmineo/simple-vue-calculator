@@ -11,7 +11,7 @@ export default {
   components: {
     CalculatorBox
   },
-  created() {
+  mounted() {
     const titleEl = document.querySelector('head title')
     titleEl.textContent = 'Vue.js Simple Calculator'
 
